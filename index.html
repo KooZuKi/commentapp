@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/agency.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title></title>
+</head>
+<body>
+
+	<div class="container" id="main">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">	
+				<h1 class="text-primary">Comment App</h1>
+				<form id="form">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Username" id="typehere" class="form-control">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="3" placeholder="Comment" id="comment"></textarea>
+					</div>
+					<div class="form-group" id="showbtn">
+						<button type="button" onclick="getinfo()" class="btn btn-primary">Click Me</button>
+					</div>
+					<div class="col-xs-12" id="nitem">
+						<ul class="list-group" id="getinfo"></ul>
+					</div>
+				</form>	
+			</div>	
+		</div>
+		<input type="button" value="Delete Selected Item" class="btn btn-danger" id="delete" style="visibility: hidden">
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
